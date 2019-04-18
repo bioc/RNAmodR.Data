@@ -69,7 +69,7 @@ RNAmodR.Data.RMS <- function(){
 
 #' @name RNAmodR.Data.AAS
 #' @aliases example.AAS.fasta example.AAS.gff3 example.bud23.1 example.bud23.2
-#' example.trm8.1 example.trm8.2 example.trm8.3 example.wt.1 example.wt.2 
+#' example.trm8.1 example.trm8.2 example.wt.1 example.wt.2 
 #' example.wt.3
 #' 
 #' @title RNAmodR AlkAnilineSeq example data
@@ -98,10 +98,6 @@ RNAmodR.Data.RMS <- function(){
 #' \subsection{example.trm8.2}{
 #'    sequencing reads mapped to artificial genome from trm8del strain - 
 #'    replicate 2
-#' }
-#' \subsection{example.trm8.3}{
-#'    sequencing reads mapped to artificial genome from trm8del strain - 
-#'    replicate 3
 #' }
 #' \subsection{example.wt.1}{
 #'    sequencing reads mapped to artificial genome from wild type strain - 

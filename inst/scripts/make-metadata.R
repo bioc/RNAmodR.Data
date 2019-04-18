@@ -153,14 +153,6 @@ df_AAS <- rbind(
                    DispatchClass = "BamFileResource",
                    RDataPath = "RNAmodR.Data/example_trm8_2.bam,RNAmodR.Data/example_trm8_2.bai")),
   cbind(df_Base,
-        data.frame(Title = "RNAmodR.Data.example.trm8.3", 
-                   Description = paste0(""),
-                   SourceType = "FASTQ",
-                   DataProvider = "UMS2008 Next Generation Sequencing (NGS) Core Facility, Lorraine University",
-                   RDataClass = "BamFile", 
-                   DispatchClass = "BamFileResource",
-                   RDataPath = "RNAmodR.Data/example_trm8_3.bam,RNAmodR.Data/example_trm8_3.bai")),
-  cbind(df_Base,
         data.frame(Title = "RNAmodR.Data.example.wt.1", 
                    Description = paste0(""),
                    SourceType = "FASTQ",
@@ -202,7 +194,7 @@ df_Man <- rbind(
                    DataProvider = "SGD, tRNAscan-SE",
                    RDataClass = "FaFile", 
                    DispatchClass = "FaFileResource",
-                   RDataPath = "RNAmodR.Data/example.man.fasta")),
+                   RDataPath = "RNAmodR.Data/example1.fasta")),
   cbind(df_Base,
         data.frame(Title = "RNAmodR.Data.example.man.gff3", 
                    Description = paste0(""),
@@ -210,7 +202,7 @@ df_Man <- rbind(
                    DataProvider = "SGD, tRNAscan-SE",
                    RDataClass = "GFF3File", 
                    DispatchClass = "GFF3FileResource",
-                   RDataPath = "RNAmodR.Data/example.man.gff3"))
+                   RDataPath = "RNAmodR.Data/example1.gff3"))
 )
 df_Man$Species <- "Saccharomyces cerevisiae S288C"
 df_Man$TaxonomyId <- "559292"
