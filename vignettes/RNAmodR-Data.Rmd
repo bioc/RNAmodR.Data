@@ -1,0 +1,36 @@
+---
+title: "RNAmodR.Data: example data for RNAmodR packages"
+author: "Felix G.M. Ernst and Denis L.J. Lafontaine"
+date: "`r Sys.Date()`"
+package: RNAmodR
+output:
+  BiocStyle::html_document
+vignette: >
+  %\VignetteIndexEntry{RNAmodR.Data}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r style, echo = FALSE, results = 'asis'}
+BiocStyle::markdown(css.files = c('custom.css'))
+```
+
+# Introduction
+
+`RNAmodR.Data` contains just example data for the `RNAmodR` and related 
+packages. The data is provided as gff3, fasta and bam files.
+
+The following files are included
+
+```{r, echo=FALSE}
+l <- list.files(path = "../inst/extdata", pattern = NULL, all.files = FALSE,
+                full.names = FALSE, recursive = FALSE,
+                ignore.case = FALSE, include.dirs = FALSE, no.. = FALSE)
+as.list(l)
+```
+
+# Sessioninfo
+
+```{r}
+sessioninfo::session_info()
+```
