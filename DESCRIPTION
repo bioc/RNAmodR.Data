@@ -25,7 +25,6 @@ Imports:
     AnnotationHub
 Collate:
     'RNAmodR.Data.R'
-    'BamFileResource.R'
     'zzz.R'
 RoxygenNote: 6.1.1
 Suggests: 

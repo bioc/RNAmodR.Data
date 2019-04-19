@@ -8,7 +8,6 @@
 \alias{example.bud23.2}
 \alias{example.trm8.1}
 \alias{example.trm8.2}
-\alias{example.trm8.3}
 \alias{example.wt.1}
 \alias{example.wt.2}
 \alias{example.wt.3}
@@ -44,10 +43,6 @@ RNAmodR AlkAnilineSeq example data
 \subsection{example.trm8.2}{
    sequencing reads mapped to artificial genome from trm8del strain - 
    replicate 2
-}
-\subsection{example.trm8.3}{
-   sequencing reads mapped to artificial genome from trm8del strain - 
-   replicate 3
 }
 \subsection{example.wt.1}{
    sequencing reads mapped to artificial genome from wild type strain - 

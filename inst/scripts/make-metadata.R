@@ -2,7 +2,7 @@
 # Base data for all data sets --------------------------------------------------
 
 df_Base <- data.frame(
-  BiocVersion = "4.0",
+  BiocVersion = "3.8",
   Genome = NA,
   SourceVersion = NA,
   Coordinate_1_based = TRUE,

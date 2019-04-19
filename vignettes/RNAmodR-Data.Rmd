@@ -21,8 +21,16 @@ BiocStyle::markdown(css.files = c('custom.css'))
 packages. The data is provided as gff3, fasta and bam files.
 
 Four sets of data with multiple files are included
-
 ```{r, echo=FALSE}
+suppressPackageStartupMessages({
+  library(RNAmodR.Data)
+})
+```
+```{r, eval=FALSE}
+library(RNAmodR.Data)
+```
+
+```{r}
 RNAmodR.Data.example()
 RNAmodR.Data.RMS()
 RNAmodR.Data.AAS()

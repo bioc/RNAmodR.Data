@@ -11,6 +11,9 @@
 #' @name RNAmodR.Data
 NULL
 
+#' @import ExperimentHub
+NULL
+
 #' @name RNAmodR.Data.example
 #' @aliases example.fasta example.gff3 example.bam.1 example.bam.2 example.bam.3
 #' 
@@ -34,6 +37,8 @@ NULL
 #' \subsection{example.bam.3}{
 #'    sequencing reads mapped to artificial genome - replicate 3
 #' }
+#' 
+#' @export
 #' 
 #' @examples RNAmodR.Data.example()
 RNAmodR.Data.example <- function(){
@@ -60,6 +65,8 @@ RNAmodR.Data.example <- function(){
 #' \subsection{example.RMS.2}{
 #'    sequencing reads mapped to artificial genome - replicate 2
 #' }
+#' 
+#' @export
 #' 
 #' @examples RNAmodR.Data.RMS()
 RNAmodR.Data.RMS <- function(){
@@ -112,6 +119,8 @@ RNAmodR.Data.RMS <- function(){
 #'    replicate 3
 #' }
 #' 
+#' @export
+#' 
 #' @examples RNAmodR.Data.AAS()
 RNAmodR.Data.AAS <- function(){
   
@@ -134,6 +143,8 @@ RNAmodR.Data.AAS <- function(){
 #'    annotation of artificial genome for S. cerevisiae containing partial 
 #'    sequences of the 18S rRNA
 #' }
+#' 
+#' @export
 #' 
 #' @examples RNAmodR.Data.man()
 RNAmodR.Data.man <- function(){
