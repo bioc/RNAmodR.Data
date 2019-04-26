@@ -27,8 +27,8 @@ df_Example <- rbind(
                    SourceType = "FASTA",
                    DataProvider = "SGD, tRNAscan-SE",
                    RDataClass = "FaFile", 
-                   DispatchClass = "FaFileResource",
-                   RDataPath = "RNAmodR.Data/example.fasta")),
+                   DispatchClass = "FaFile",
+                   RDataPath = "RNAmodR.Data/example.fasta:RNAmodR.Data/example.fai")),
   cbind(df_Base,
         data.frame(Title = "RNAmodR.Data.example.gff3", 
                    Description = paste0(
@@ -39,7 +39,7 @@ df_Example <- rbind(
                    SourceType = "GFF",
                    DataProvider = "SGD, tRNAscan-SE",
                    RDataClass = "GFF3File", 
-                   DispatchClass = "GFF3FileResource",
+                   DispatchClass = "GFF3File",
                    RDataPath = "RNAmodR.Data/example.gff3")),
   cbind(df_Base,
         data.frame(Title = "RNAmodR.Data.example.bam.1", 
@@ -49,8 +49,8 @@ df_Example <- rbind(
                    SourceType = "FASTQ",
                    DataProvider = UMS2008,
                    RDataClass = "BamFile", 
-                   DispatchClass = "BamFileResource",
-                   RDataPath = "RNAmodR.Data/example1.bam,RNAmodR.Data/example1.bai")),
+                   DispatchClass = "BamFile",
+                   RDataPath = "RNAmodR.Data/example1.bam:RNAmodR.Data/example1.bai")),
   cbind(df_Base,
         data.frame(Title = "RNAmodR.Data.example.bam.2", 
                    Description = paste0(
@@ -59,8 +59,8 @@ df_Example <- rbind(
                    SourceType = "FASTQ",
                    DataProvider = UMS2008,
                    RDataClass = "BamFile", 
-                   DispatchClass = "BamFileResource",
-                   RDataPath = "RNAmodR.Data/example2.bam,RNAmodR.Data/example2.bai")),
+                   DispatchClass = "BamFile",
+                   RDataPath = "RNAmodR.Data/example2.bam:RNAmodR.Data/example2.bai")),
   cbind(df_Base,
         data.frame(Title = "RNAmodR.Data.example.bam.3", 
                    Description = paste0(
@@ -69,8 +69,8 @@ df_Example <- rbind(
                    SourceType = "FASTQ",
                    DataProvider = UMS2008,
                    RDataClass = "BamFile", 
-                   DispatchClass = "BamFileResource",
-                   RDataPath = "RNAmodR.Data/example3.bam,RNAmodR.Data/example3.bai"))
+                   DispatchClass = "BamFile",
+                   RDataPath = "RNAmodR.Data/example3.bam:RNAmodR.Data/example3.bai"))
 )
 df_Example$Species <- "Saccharomyces cerevisiae S288C"
 df_Example$TaxonomyId <- "559292"
@@ -87,8 +87,8 @@ df_RMS <- rbind(
                    SourceType = "FASTA",
                    DataProvider = "SGD, tRNAscan-SE",
                    RDataClass = "FaFile", 
-                   DispatchClass = "FaFileResource",
-                   RDataPath = "RNAmodR.Data/example_RMS.fasta")),
+                   DispatchClass = "FaFile",
+                   RDataPath = "RNAmodR.Data/example_RMS.fasta:RNAmodR.Data/example_RMS.fai")),
   cbind(df_Base,
         data.frame(Title = "RNAmodR.Data.example.RMS.gff3", 
                    Description = paste0(
@@ -96,7 +96,7 @@ df_RMS <- rbind(
                    SourceType = "GFF",
                    DataProvider = "SGD, tRNAscan-SE",
                    RDataClass = "GFF3File", 
-                   DispatchClass = "GFF3FileResource",
+                   DispatchClass = "GFF3File",
                    RDataPath = "RNAmodR.Data/example_RMS.gff3")),
   cbind(df_Base,
         data.frame(Title = "RNAmodR.Data.example.RMS.1", 
@@ -107,8 +107,8 @@ df_RMS <- rbind(
                    SourceType = "FASTQ",
                    DataProvider = UMS2008,
                    RDataClass = "BamFile", 
-                   DispatchClass = "BamFileResource",
-                   RDataPath = "RNAmodR.Data/example_RMS1.bam,RNAmodR.Data/example_RMS1.bai")),
+                   DispatchClass = "BamFile",
+                   RDataPath = "RNAmodR.Data/example_RMS1.bam:RNAmodR.Data/example_RMS1.bai")),
   cbind(df_Base,
         data.frame(Title = "RNAmodR.Data.example.RMS.2", 
                    Description = paste0(
@@ -118,8 +118,8 @@ df_RMS <- rbind(
                    SourceType = "FASTQ",
                    DataProvider = UMS2008,
                    RDataClass = "BamFile", 
-                   DispatchClass = "BamFileResource",
-                   RDataPath = "RNAmodR.Data/example_RMS2.bam,RNAmodR.Data/example_RMS2.bai"))
+                   DispatchClass = "BamFile",
+                   RDataPath = "RNAmodR.Data/example_RMS2.bam:RNAmodR.Data/example_RMS2.bai"))
 )
 df_RMS$Species <- "Homo sapiens"
 df_RMS$TaxonomyId <- "9606"
@@ -140,8 +140,8 @@ df_AAS <- rbind(
                    SourceType = "FASTA",
                    DataProvider = "SGD, tRNAscan-SE",
                    RDataClass = "FaFile", 
-                   DispatchClass = "FaFileResource",
-                   RDataPath = "RNAmodR.Data/example_AAS.fasta")),
+                   DispatchClass = "FaFile",
+                   RDataPath = "RNAmodR.Data/example_AAS.fasta:RNAmodR.Data/example_AAS.fai")),
   cbind(df_Base,
         data.frame(Title = "RNAmodR.Data.example.AAS.gff3", 
                    Description = paste0(
@@ -153,7 +153,7 @@ df_AAS <- rbind(
                    SourceType = "GFF",
                    DataProvider = "SGD, tRNAscan-SE",
                    RDataClass = "GFF3File", 
-                   DispatchClass = "GFF3FileResource",
+                   DispatchClass = "GFF3File",
                    RDataPath = "RNAmodR.Data/example_AAS.gff3")),
   cbind(df_Base,
         data.frame(Title = "RNAmodR.Data.example.bud23.1", 
@@ -164,8 +164,8 @@ df_AAS <- rbind(
                    SourceType = "FASTQ",
                    DataProvider = UMS2008,
                    RDataClass = "BamFile", 
-                   DispatchClass = "BamFileResource",
-                   RDataPath = "RNAmodR.Data/example_bud23_1.bam,RNAmodR.Data/example_bud23_1.bai")),
+                   DispatchClass = "BamFile",
+                   RDataPath = "RNAmodR.Data/example_bud23_1.bam:RNAmodR.Data/example_bud23_1.bai")),
   cbind(df_Base,
         data.frame(Title = "RNAmodR.Data.example.bud23.2", 
                    Description = paste0(
@@ -175,8 +175,8 @@ df_AAS <- rbind(
                    SourceType = "FASTQ",
                    DataProvider = UMS2008,
                    RDataClass = "BamFile", 
-                   DispatchClass = "BamFileResource",
-                   RDataPath = "RNAmodR.Data/example_bud23_2.bam,RNAmodR.Data/example_bud23_2.bai")),
+                   DispatchClass = "BamFile",
+                   RDataPath = "RNAmodR.Data/example_bud23_2.bam:RNAmodR.Data/example_bud23_2.bai")),
   cbind(df_Base,
         data.frame(Title = "RNAmodR.Data.example.trm8.1", 
                    Description = paste0(
@@ -186,8 +186,8 @@ df_AAS <- rbind(
                    SourceType = "FASTQ",
                    DataProvider = UMS2008,
                    RDataClass = "BamFile", 
-                   DispatchClass = "BamFileResource",
-                   RDataPath = "RNAmodR.Data/example_trm8_1.bam,RNAmodR.Data/example_trm8_1.bai")),
+                   DispatchClass = "BamFile",
+                   RDataPath = "RNAmodR.Data/example_trm8_1.bam:RNAmodR.Data/example_trm8_1.bai")),
   cbind(df_Base,
         data.frame(Title = "RNAmodR.Data.example.trm8.2", 
                    Description = paste0(
@@ -197,8 +197,8 @@ df_AAS <- rbind(
                    SourceType = "FASTQ",
                    DataProvider = UMS2008,
                    RDataClass = "BamFile", 
-                   DispatchClass = "BamFileResource",
-                   RDataPath = "RNAmodR.Data/example_trm8_2.bam,RNAmodR.Data/example_trm8_2.bai")),
+                   DispatchClass = "BamFile",
+                   RDataPath = "RNAmodR.Data/example_trm8_2.bam:RNAmodR.Data/example_trm8_2.bai")),
   cbind(df_Base,
         data.frame(Title = "RNAmodR.Data.example.wt.1", 
                    Description = paste0(
@@ -208,8 +208,8 @@ df_AAS <- rbind(
                    SourceType = "FASTQ",
                    DataProvider = UMS2008,
                    RDataClass = "BamFile", 
-                   DispatchClass = "BamFileResource",
-                   RDataPath = "RNAmodR.Data/example_wt_1.bam,RNAmodR.Data/example_wt_1.bai")),
+                   DispatchClass = "BamFile",
+                   RDataPath = "RNAmodR.Data/example_wt_1.bam:RNAmodR.Data/example_wt_1.bai")),
   cbind(df_Base,
         data.frame(Title = "RNAmodR.Data.example.wt.2", 
                    Description = paste0(
@@ -219,8 +219,8 @@ df_AAS <- rbind(
                    SourceType = "FASTQ",
                    DataProvider = UMS2008,
                    RDataClass = "BamFile", 
-                   DispatchClass = "BamFileResource",
-                   RDataPath = "RNAmodR.Data/example_wt_2.bam,RNAmodR.Data/example_wt_2.bai")),
+                   DispatchClass = "BamFile",
+                   RDataPath = "RNAmodR.Data/example_wt_2.bam:RNAmodR.Data/example_wt_2.bai")),
   cbind(df_Base,
         data.frame(Title = "RNAmodR.Data.example.wt.3", 
                    Description = paste0(
@@ -230,8 +230,8 @@ df_AAS <- rbind(
                    SourceType = "FASTQ",
                    DataProvider = UMS2008,
                    RDataClass = "BamFile", 
-                   DispatchClass = "BamFileResource",
-                   RDataPath = "RNAmodR.Data/example_wt_3.bam,RNAmodR.Data/example_wt_3.bai"))
+                   DispatchClass = "BamFile",
+                   RDataPath = "RNAmodR.Data/example_wt_3.bam:RNAmodR.Data/example_wt_3.bai"))
 )
 df_AAS$Species <- "Saccharomyces cerevisiae S288C"
 df_AAS$TaxonomyId <- "559292"
@@ -250,8 +250,8 @@ df_Man <- rbind(
                    SourceType = "FASTA",
                    DataProvider = "SGD, tRNAscan-SE",
                    RDataClass = "FaFile", 
-                   DispatchClass = "FaFileResource",
-                   RDataPath = "RNAmodR.Data/example1.fasta")),
+                   DispatchClass = "FaFile",
+                   RDataPath = "RNAmodR.Data/example1.fasta:RNAmodR.Data/example1.fai")),
   cbind(df_Base,
         data.frame(Title = "RNAmodR.Data.example.man.gff3", 
                    Description = paste0(
@@ -260,7 +260,7 @@ df_Man <- rbind(
                    SourceType = "GFF",
                    DataProvider = "SGD, tRNAscan-SE",
                    RDataClass = "GFF3File", 
-                   DispatchClass = "GFF3FileResource",
+                   DispatchClass = "GFF3File",
                    RDataPath = "RNAmodR.Data/example1.gff3"))
 )
 df_Man$Species <- "Saccharomyces cerevisiae S288C"
@@ -281,7 +281,7 @@ df_snoRNAdb <- rbind(
                    SourceType = "TXT",
                    DataProvider = "snoRNAdb",
                    RDataClass = "FilePath", 
-                   DispatchClass = "FilePathResource",
+                   DispatchClass = "FilePath",
                    RDataPath = "RNAmodR.Data/snoRNAdb.csv"))
 )
 df_snoRNAdb$Species <- "Homo sapiens"
