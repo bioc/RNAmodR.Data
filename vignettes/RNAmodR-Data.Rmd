@@ -15,12 +15,13 @@ vignette: >
 BiocStyle::markdown(css.files = c('custom.css'))
 ```
 
-# Introduction
+# Available resources
 
-`RNAmodR.Data` contains just example data for the `RNAmodR` and related 
+`RNAmodR.Data` contains example data for the `RNAmodR` and related 
 packages. The data is provided as gff3, fasta and bam files.
 
 Four sets of data with multiple files are included
+
 ```{r, echo=FALSE}
 suppressPackageStartupMessages({
   library(RNAmodR.Data)
@@ -31,11 +32,18 @@ library(RNAmodR.Data)
 ```
 
 ```{r}
-RNAmodR.Data.example()
-RNAmodR.Data.RMS()
-RNAmodR.Data.AAS()
-RNAmodR.Data.man()
+eh <- ExperimentHub()
+ExperimentHub::listResources(eh, "RNAmodR.Data")
 ```
+
+These resources are grouped based on topic. Please have a look at the following
+man pages:
+
+- `?RNAmodR.Data.example` for general example data used for different purposes
+- `?RNAmodR.Data.RMS` for example data for RiboMethSeq
+- `?RNAmodR.Data.AAS` for example data for AlkAnilineSeq
+- `?RNAmodR.Data.man` for small data set for man page examples
+- `?RNAmodR.Data.snoRNAdb` for snoRNAdb as csv file
 
 # Sessioninfo
 

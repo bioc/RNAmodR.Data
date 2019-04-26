@@ -2,7 +2,7 @@
 # Base data for all data sets --------------------------------------------------
 
 df_Base <- data.frame(
-  BiocVersion = "3.10",
+  BiocVersion = "3.9",
   Genome = NA,
   SourceVersion = NA,
   Coordinate_1_based = TRUE,
@@ -38,8 +38,8 @@ df_Example <- rbind(
 "used as an artificial genome for example data."),
                    SourceType = "GFF",
                    DataProvider = "SGD, tRNAscan-SE",
-                   RDataClass = "GFF3File", 
-                   DispatchClass = "GFF3File",
+                   RDataClass = "FilePath", 
+                   DispatchClass = "FilePath",
                    RDataPath = "RNAmodR.Data/example.gff3")),
   cbind(df_Base,
         data.frame(Title = "RNAmodR.Data.example.bam.1", 
@@ -95,8 +95,8 @@ df_RMS <- rbind(
 "Artificial annotation for 5.8S rRNA sequence from H. sapiens."),
                    SourceType = "GFF",
                    DataProvider = "SGD, tRNAscan-SE",
-                   RDataClass = "GFF3File", 
-                   DispatchClass = "GFF3File",
+                   RDataClass = "FilePath", 
+                   DispatchClass = "FilePath",
                    RDataPath = "RNAmodR.Data/example_RMS.gff3")),
   cbind(df_Base,
         data.frame(Title = "RNAmodR.Data.example.RMS.1", 
@@ -152,8 +152,8 @@ df_AAS <- rbind(
                    ),
                    SourceType = "GFF",
                    DataProvider = "SGD, tRNAscan-SE",
-                   RDataClass = "GFF3File", 
-                   DispatchClass = "GFF3File",
+                   RDataClass = "FilePath", 
+                   DispatchClass = "FilePath",
                    RDataPath = "RNAmodR.Data/example_AAS.gff3")),
   cbind(df_Base,
         data.frame(Title = "RNAmodR.Data.example.bud23.1", 
@@ -259,8 +259,8 @@ df_Man <- rbind(
 "S. cerevisiae."), 
                    SourceType = "GFF",
                    DataProvider = "SGD, tRNAscan-SE",
-                   RDataClass = "GFF3File", 
-                   DispatchClass = "GFF3File",
+                   RDataClass = "FilePath", 
+                   DispatchClass = "FilePath",
                    RDataPath = "RNAmodR.Data/example1.gff3"))
 )
 df_Man$Species <- "Saccharomyces cerevisiae S288C"
@@ -294,4 +294,4 @@ experimentData <- rbind(df_Example,
                         df_AAS,
                         df_Man,
                         df_snoRNAdb)
-write.csv(experimentData, file = "../extdata/metadata.csv", row.names = FALSE)
+write.csv(experimentData, file = "inst/extdata/metadata.csv", row.names = FALSE)

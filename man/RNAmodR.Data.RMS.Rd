@@ -2,16 +2,15 @@
 % Please edit documentation in R/RNAmodR.Data.R
 \name{RNAmodR.Data.RMS}
 \alias{RNAmodR.Data.RMS}
-\alias{example.RMS.fasta}
-\alias{example.RMS.gff3}
-\alias{example.RMS.1}
-\alias{example.RMS.2}
+\alias{RNAmodR.Data.example.RMS.fasta}
+\alias{RNAmodR.Data.example.RMS.gff3}
+\alias{RNAmodR.Data.example.RMS.1}
+\alias{RNAmodR.Data.example.RMS.2}
 \title{RNAmodR RiboMethSeq example data}
-\usage{
-RNAmodR.Data.RMS()
-}
 \description{
-RNAmodR RiboMethSeq example data
+This dataset contains example data for RiboMethSeq.
+The indivicual identifiers are \code{RNAmodR.Data.} plus the header from the
+\code{Datasets} section.
 }
 \section{Datasets}{
 
@@ -31,6 +30,3 @@ RNAmodR RiboMethSeq example data
 }
 }
 
-\examples{
-RNAmodR.Data.RMS()
-}

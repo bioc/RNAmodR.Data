@@ -2,14 +2,13 @@
 % Please edit documentation in R/RNAmodR.Data.R
 \name{example.man.fasta}
 \alias{example.man.fasta}
-\alias{RNAmodR.Data.man}
-\alias{example.man.gff3}
+\alias{RNAmodR.Data.example.man.fasta}
+\alias{RNAmodR.Data.example.man.gff3}
 \title{RNAmodR example data for tests and man pages}
-\usage{
-RNAmodR.Data.man()
-}
 \description{
-This data is only used for tests and man page examples
+This dataset contains a small data set for tests and man page examples.
+The indivicual identifiers are \code{RNAmodR.Data.} plus the header from the
+\code{Datasets} section.
 }
 \section{Datasets}{
 
@@ -23,6 +22,3 @@ This data is only used for tests and man page examples
 }
 }
 
-\examples{
-RNAmodR.Data.man()
-}

@@ -2,21 +2,20 @@
 % Please edit documentation in R/RNAmodR.Data.R
 \name{RNAmodR.Data.AAS}
 \alias{RNAmodR.Data.AAS}
-\alias{example.AAS.fasta}
-\alias{example.AAS.gff3}
-\alias{example.bud23.1}
-\alias{example.bud23.2}
-\alias{example.trm8.1}
-\alias{example.trm8.2}
-\alias{example.wt.1}
-\alias{example.wt.2}
-\alias{example.wt.3}
+\alias{RNAmodR.Data.example.AAS.fasta}
+\alias{RNAmodR.Data.example.AAS.gff3}
+\alias{RNAmodR.Data.example.bud23.1}
+\alias{RNAmodR.Data.example.bud23.2}
+\alias{RNAmodR.Data.example.trm8.1}
+\alias{RNAmodR.Data.example.trm8.2}
+\alias{RNAmodR.Data.example.wt.1}
+\alias{RNAmodR.Data.example.wt.2}
+\alias{RNAmodR.Data.example.wt.3}
 \title{RNAmodR AlkAnilineSeq example data}
-\usage{
-RNAmodR.Data.AAS()
-}
 \description{
-RNAmodR AlkAnilineSeq example data
+This dataset contains exmaple data for AlkAnilineSeq.
+The indivicual identifiers are \code{RNAmodR.Data.} plus the header from the
+\code{Datasets} section.
 }
 \section{Datasets}{
 
@@ -58,6 +57,3 @@ RNAmodR AlkAnilineSeq example data
 }
 }
 
-\examples{
-RNAmodR.Data.AAS()
-}

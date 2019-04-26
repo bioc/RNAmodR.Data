@@ -1,7 +1,7 @@
 Package: RNAmodR.Data
 Type: Package
 Title: RNAmodR.Data: Example data for the RNAmodR package
-Version: 0.98.0
+Version: 0.99.0
 Authors@R: c(person("Felix G.M.", 
                     "Ernst", 
                     email = "felix.gm.ernst@outlook.com", 
@@ -16,10 +16,11 @@ biocViews:
     ExperimentHub, SequencingData, RNASeqData
 License: Artistic-2.0
 Encoding: UTF-8
-LazyData: true
+LazyData: false
 Depends:
-    R (>= 3.5),
-    ExperimentHub
+    R (>= 3.6),
+    ExperimentHub,
+    ExperimentHubData (>= 1.9.2)
 Imports:
     utils,
     AnnotationHub

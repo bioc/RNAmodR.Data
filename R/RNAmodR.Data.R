@@ -12,12 +12,20 @@
 NULL
 
 #' @import ExperimentHub
+#' @import ExperimentHubData
 NULL
 
 #' @name RNAmodR.Data.example
-#' @aliases example.fasta example.gff3 example.bam.1 example.bam.2 example.bam.3
+#' @aliases RNAmodR.Data.example.fasta RNAmodR.Data.example.gff3 
+#' RNAmodR.Data.example.bam.1 RNAmodR.Data.example.bam.2 
+#' RNAmodR.Data.example.bam.3
 #' 
 #' @title RNAmodR general example data
+#' 
+#' @description 
+#' This dataset contains general example data used for different purposes.
+#' The indivicual identifiers are \code{RNAmodR.Data.} plus the header from the
+#' \code{Datasets} section.
 #' 
 #' @section Datasets:
 #' \subsection{example.fasta}{
@@ -37,18 +45,18 @@ NULL
 #' \subsection{example.bam.3}{
 #'    sequencing reads mapped to artificial genome - replicate 3
 #' }
-#' 
-#' @export
-#' 
-#' @examples RNAmodR.Data.example()
-RNAmodR.Data.example <- function(){
-  
-}
+NULL
 
 #' @name RNAmodR.Data.RMS
-#' @aliases example.RMS.fasta example.RMS.gff3 example.RMS.1 example.RMS.2
+#' @aliases RNAmodR.Data.example.RMS.fasta RNAmodR.Data.example.RMS.gff3 
+#' RNAmodR.Data.example.RMS.1 RNAmodR.Data.example.RMS.2
 #' 
 #' @title RNAmodR RiboMethSeq example data
+#' 
+#' @description 
+#' This dataset contains example data for RiboMethSeq.
+#' The indivicual identifiers are \code{RNAmodR.Data.} plus the header from the
+#' \code{Datasets} section.
 #' 
 #' @section Datasets:
 #' \subsection{example.RMS.fasta}{
@@ -65,21 +73,21 @@ RNAmodR.Data.example <- function(){
 #' \subsection{example.RMS.2}{
 #'    sequencing reads mapped to artificial genome - replicate 2
 #' }
-#' 
-#' @export
-#' 
-#' @examples RNAmodR.Data.RMS()
-RNAmodR.Data.RMS <- function(){
-  
-}
-
+NULL
 
 #' @name RNAmodR.Data.AAS
-#' @aliases example.AAS.fasta example.AAS.gff3 example.bud23.1 example.bud23.2
-#' example.trm8.1 example.trm8.2 example.wt.1 example.wt.2 
-#' example.wt.3
+#' @aliases RNAmodR.Data.example.AAS.fasta RNAmodR.Data.example.AAS.gff3 
+#' RNAmodR.Data.example.bud23.1 RNAmodR.Data.example.bud23.2
+#' RNAmodR.Data.example.trm8.1 RNAmodR.Data.example.trm8.2 
+#' RNAmodR.Data.example.wt.1 RNAmodR.Data.example.wt.2 
+#' RNAmodR.Data.example.wt.3
 #' 
 #' @title RNAmodR AlkAnilineSeq example data
+#' 
+#' @description 
+#' This dataset contains exmaple data for AlkAnilineSeq.
+#' The indivicual identifiers are \code{RNAmodR.Data.} plus the header from the
+#' \code{Datasets} section.
 #' 
 #' @section Datasets:
 #' \subsection{example.AAS.fasta}{
@@ -118,21 +126,17 @@ RNAmodR.Data.RMS <- function(){
 #'    sequencing reads mapped to artificial genome from wild type strain - 
 #'    replicate 3
 #' }
-#' 
-#' @export
-#' 
-#' @examples RNAmodR.Data.AAS()
-RNAmodR.Data.AAS <- function(){
-  
-}
+NULL
 
 #' @name example.man.fasta
-#' @aliases example.man.fasta example.man.gff3 
+#' @aliases RNAmodR.Data.example.man.fasta RNAmodR.Data.example.man.gff3 
 #' 
 #' @title RNAmodR example data for tests and man pages
 #' 
 #' @description 
-#' This data is only used for tests and man page examples
+#' This dataset contains a small data set for tests and man page examples.
+#' The indivicual identifiers are \code{RNAmodR.Data.} plus the header from the
+#' \code{Datasets} section.
 #' 
 #' @section Datasets:
 #' \subsection{example.man.fasta}{
@@ -143,10 +147,16 @@ RNAmodR.Data.AAS <- function(){
 #'    annotation of artificial genome for S. cerevisiae containing partial 
 #'    sequences of the 18S rRNA
 #' }
+NULL
+
+#' @name RNAmodR.Data.snoRNAdb   
 #' 
-#' @export
+#' @title snoRNAdb data
 #' 
-#' @examples RNAmodR.Data.man()
-RNAmodR.Data.man <- function(){
-  
-}
+#' @description 
+#' The csv files contains a copy of data from the snoRNAdb 
+#' (\url{https://www-snorna.biotoul.fr/}) downloaded on the 2019-02-11.
+#' The coordinates were updated to current rRNA sequences of hg38.
+#' 
+#' @examples RNAmodR.Data.snoRNAdb()
+NULL

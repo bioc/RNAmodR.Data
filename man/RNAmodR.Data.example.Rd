@@ -2,17 +2,16 @@
 % Please edit documentation in R/RNAmodR.Data.R
 \name{RNAmodR.Data.example}
 \alias{RNAmodR.Data.example}
-\alias{example.fasta}
-\alias{example.gff3}
-\alias{example.bam.1}
-\alias{example.bam.2}
-\alias{example.bam.3}
+\alias{RNAmodR.Data.example.fasta}
+\alias{RNAmodR.Data.example.gff3}
+\alias{RNAmodR.Data.example.bam.1}
+\alias{RNAmodR.Data.example.bam.2}
+\alias{RNAmodR.Data.example.bam.3}
 \title{RNAmodR general example data}
-\usage{
-RNAmodR.Data.example()
-}
 \description{
-RNAmodR general example data
+This dataset contains general example data used for different purposes.
+The indivicual identifiers are \code{RNAmodR.Data.} plus the header from the
+\code{Datasets} section.
 }
 \section{Datasets}{
 
@@ -35,6 +34,3 @@ RNAmodR general example data
 }
 }
 
-\examples{
-RNAmodR.Data.example()
-}
