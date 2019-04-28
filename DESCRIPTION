@@ -34,3 +34,5 @@ Suggests:
     BiocStyle,
     sessioninfo
 VignetteBuilder: knitr
+BugReports: https://github.com/FelixErnst/RNAmodR.Data/issues
+URL: https://github.com/FelixErnst/RNAmodR.Data
