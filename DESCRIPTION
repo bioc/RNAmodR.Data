@@ -1,7 +1,7 @@
 Package: RNAmodR.Data
 Type: Package
 Title: RNAmodR.Data: Example data for the RNAmodR package
-Version: 0.99.1
+Version: 0.99.2
 Authors@R: c(person("Felix G.M.", 
                     "Ernst", 
                     email = "felix.gm.ernst@outlook.com", 
