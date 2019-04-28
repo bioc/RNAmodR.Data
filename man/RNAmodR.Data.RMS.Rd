@@ -30,3 +30,9 @@ The indivicual identifiers are \code{RNAmodR.Data.} plus the header from the
 }
 }
 
+\examples{
+RNAmodR.Data.example.RMS.fasta()
+RNAmodR.Data.example.RMS.gff3()
+RNAmodR.Data.example.RMS.1()
+RNAmodR.Data.example.RMS.2()
+}

@@ -22,3 +22,7 @@ The indivicual identifiers are \code{RNAmodR.Data.} plus the header from the
 }
 }
 
+\examples{
+RNAmodR.Data.example.man.fasta()
+RNAmodR.Data.example.man.gff3()
+}

@@ -33,7 +33,7 @@ NULL
 #'    tRNA sequences
 #' }
 #' \subsection{example.gff3}{
-#'    annotation of artificial genome for S. cerevisiae containing only rRNA and 
+#'    annotation of artificial genome for S. cerevisiae containing only rRNA and
 #'    tRNA sequences
 #' }
 #' \subsection{example.bam.1}{
@@ -45,6 +45,13 @@ NULL
 #' \subsection{example.bam.3}{
 #'    sequencing reads mapped to artificial genome - replicate 3
 #' }
+#' 
+#' @examples 
+#' RNAmodR.Data.example.fasta()
+#' RNAmodR.Data.example.gff3()
+#' RNAmodR.Data.example.bam.1()
+#' RNAmodR.Data.example.bam.2()
+#' RNAmodR.Data.example.bam.3()
 NULL
 
 #' @name RNAmodR.Data.RMS
@@ -73,6 +80,12 @@ NULL
 #' \subsection{example.RMS.2}{
 #'    sequencing reads mapped to artificial genome - replicate 2
 #' }
+#' 
+#' @examples 
+#' RNAmodR.Data.example.RMS.fasta()
+#' RNAmodR.Data.example.RMS.gff3()
+#' RNAmodR.Data.example.RMS.1()
+#' RNAmodR.Data.example.RMS.2()
 NULL
 
 #' @name RNAmodR.Data.AAS
@@ -126,6 +139,17 @@ NULL
 #'    sequencing reads mapped to artificial genome from wild type strain - 
 #'    replicate 3
 #' }
+#' 
+#' @examples
+#' RNAmodR.Data.example.AAS.fasta()
+#' RNAmodR.Data.example.AAS.gff3()
+#' RNAmodR.Data.example.bud23.1()
+#' RNAmodR.Data.example.bud23.2()
+#' RNAmodR.Data.example.trm8.1()
+#' RNAmodR.Data.example.trm8.2()
+#' RNAmodR.Data.example.wt.1()
+#' RNAmodR.Data.example.wt.2()
+#' RNAmodR.Data.example.wt.3()
 NULL
 
 #' @name example.man.fasta
@@ -147,6 +171,10 @@ NULL
 #'    annotation of artificial genome for S. cerevisiae containing partial 
 #'    sequences of the 18S rRNA
 #' }
+#' 
+#' @examples 
+#' RNAmodR.Data.example.man.fasta()
+#' RNAmodR.Data.example.man.gff3()
 NULL
 
 #' @name RNAmodR.Data.snoRNAdb   
@@ -158,5 +186,6 @@ NULL
 #' (\url{https://www-snorna.biotoul.fr/}) downloaded on the 2019-02-11.
 #' The coordinates were updated to current rRNA sequences of hg38.
 #' 
-#' @examples RNAmodR.Data.snoRNAdb()
+#' @examples
+#' RNAmodR.Data.snoRNAdb()
 NULL

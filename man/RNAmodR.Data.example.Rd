@@ -20,7 +20,7 @@ The indivicual identifiers are \code{RNAmodR.Data.} plus the header from the
    tRNA sequences
 }
 \subsection{example.gff3}{
-   annotation of artificial genome for S. cerevisiae containing only rRNA and 
+   annotation of artificial genome for S. cerevisiae containing only rRNA and
    tRNA sequences
 }
 \subsection{example.bam.1}{
@@ -34,3 +34,10 @@ The indivicual identifiers are \code{RNAmodR.Data.} plus the header from the
 }
 }
 
+\examples{
+RNAmodR.Data.example.fasta()
+RNAmodR.Data.example.gff3()
+RNAmodR.Data.example.bam.1()
+RNAmodR.Data.example.bam.2()
+RNAmodR.Data.example.bam.3()
+}

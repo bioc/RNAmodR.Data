@@ -1,7 +1,7 @@
 Package: RNAmodR.Data
 Type: Package
 Title: RNAmodR.Data: Example data for the RNAmodR package
-Version: 0.99.2
+Version: 0.99.3
 Authors@R: c(person("Felix G.M.", 
                     "Ernst", 
                     email = "felix.gm.ernst@outlook.com", 
@@ -13,7 +13,7 @@ Authors@R: c(person("Felix G.M.",
 Description: RNAmodR.Data contains example data, which is used for vignettes and
     example workflows in the RNAmodR and dependent packages.
 biocViews: 
-    ExperimentHub, SequencingData, RNASeqData
+    ExperimentData, SequencingData, RNASeqData
 License: Artistic-2.0
 Encoding: UTF-8
 LazyData: false
@@ -22,17 +22,17 @@ Depends:
     ExperimentHub,
     ExperimentHubData (>= 1.9.2)
 Imports:
-    utils,
-    AnnotationHub
-Collate:
-    'RNAmodR.Data.R'
-    'zzz.R'
-RoxygenNote: 6.1.1
+    utils
 Suggests: 
     knitr,
     rmarkdown,
     BiocStyle,
+    GenomicRanges,
     sessioninfo
+Collate:
+    'RNAmodR.Data.R'
+    'zzz.R'
+RoxygenNote: 6.1.1
 VignetteBuilder: knitr
 BugReports: https://github.com/FelixErnst/RNAmodR.Data/issues
 URL: https://github.com/FelixErnst/RNAmodR.Data

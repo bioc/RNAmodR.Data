@@ -57,3 +57,14 @@ The indivicual identifiers are \code{RNAmodR.Data.} plus the header from the
 }
 }
 
+\examples{
+RNAmodR.Data.example.AAS.fasta()
+RNAmodR.Data.example.AAS.gff3()
+RNAmodR.Data.example.bud23.1()
+RNAmodR.Data.example.bud23.2()
+RNAmodR.Data.example.trm8.1()
+RNAmodR.Data.example.trm8.2()
+RNAmodR.Data.example.wt.1()
+RNAmodR.Data.example.wt.2()
+RNAmodR.Data.example.wt.3()
+}
