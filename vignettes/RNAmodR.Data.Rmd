@@ -2,7 +2,7 @@
 title: "RNAmodR.Data: example data for RNAmodR packages"
 author: "Felix G.M. Ernst and Denis L.J. Lafontaine"
 date: "`r Sys.Date()`"
-package: RNAmodR
+package: RNAmodR.Data
 output:
   BiocStyle::html_document
 vignette: >
