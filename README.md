@@ -7,11 +7,23 @@ be used.
 
 # Installation
 
-The current version of the RNAmodR.Data package is available from GitHub.
+The current version of the RNAmodR.Data package is available from GitHub or
+the Bioconductor devel version.
 
 ```
 remotes::install_github("FelixErnst/RNAmodR.Data")
-# the package does not be attached since it just contains data
+#
+library(RNAmodR.Data)
 ```
 
-A submission to Bioconductor is planned.
+## Bioconductor
+
+```
+if (!requireNamespace("BiocManager", quietly = TRUE))
+    install.packages("BiocManager")
+
+# The following initializes usage of Bioc devel
+BiocManager::install(version='devel')
+BiocManager::install("RNAmodR.Data")
+library(RNAmodR.Data)
+```
