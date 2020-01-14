@@ -2,7 +2,7 @@ Package: RNAmodR.Data
 Type: Package
 Title: Example data for the RNAmodR package
 Version: 1.0.0
-Date: 2019-05-21
+Date: 2020-01-14
 Authors@R: c(person("Felix G.M.", 
                     "Ernst", 
                     email = "felix.gm.ernst@outlook.com", 
@@ -33,7 +33,7 @@ Suggests:
 Collate:
     'RNAmodR.Data.R'
     'zzz.R'
-RoxygenNote: 6.1.1
+RoxygenNote: 7.0.2
 VignetteBuilder: knitr
 BugReports: https://github.com/FelixErnst/RNAmodR.Data/issues
 URL: https://github.com/FelixErnst/RNAmodR.Data

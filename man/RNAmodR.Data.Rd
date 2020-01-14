@@ -3,7 +3,6 @@
 \docType{package}
 \name{RNAmodR.Data}
 \alias{RNAmodR.Data}
-\alias{RNAmodR.Data-package}
 \title{RNAmodR.Data}
 \description{
 RNAmodR.Data contains example data, which is used for vignettes and example
