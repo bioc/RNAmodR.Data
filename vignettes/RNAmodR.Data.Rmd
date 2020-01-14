@@ -4,11 +4,15 @@ author: "Felix G.M. Ernst and Denis L.J. Lafontaine"
 date: "`r Sys.Date()`"
 package: RNAmodR.Data
 output:
-  BiocStyle::html_document
+  BiocStyle::html_document:
+    toc: true
+    toc_float: true
+    df_print: paged
 vignette: >
   %\VignetteIndexEntry{RNAmodR.Data}
   %\VignetteEngine{knitr::rmarkdown}
   %\VignetteEncoding{UTF-8}
+bibliography: references.bib
 ---
 
 ```{r style, echo = FALSE, results = 'asis'}
@@ -17,8 +21,8 @@ BiocStyle::markdown(css.files = c('custom.css'))
 
 # Available resources
 
-`RNAmodR.Data` contains example data for the `RNAmodR` and related 
-packages. The data is provided as gff3, fasta and bam files.
+`RNAmodR.Data` contains example data for the `RNAmodR` and related packages.
+The data is provided as gff3, fasta and bam files.
 
 Four sets of data with multiple files are included
 
