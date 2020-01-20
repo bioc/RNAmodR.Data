@@ -1,4 +1,4 @@
-# RNAmodR.RData
+# RNAmodR.RData [![Build Status](https://travis-ci.com/FelixErnst/RNAmodR.Data.svg?branch=master)](https://travis-ci.com/FelixErnst/RNAmodR.Data)
 
 The package contains example data for RNAmodR package and other related 
 packages. It probably makes sense to have a look at 
