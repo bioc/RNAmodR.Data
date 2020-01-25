@@ -1,4 +1,4 @@
-# RNAmodR.RData [![Build Status](https://travis-ci.com/FelixErnst/RNAmodR.Data.svg?branch=master)](https://travis-ci.com/FelixErnst/RNAmodR.Data)
+# RNAmodR.RData [![Build Status](https://travis-ci.com/FelixErnst/RNAmodR.Data.svg?branch=master)](https://travis-ci.com/FelixErnst/RNAmodR.Data) [![codecov](https://codecov.io/gh/FelixErnst/RNAmodR.Data/branch/master/graph/badge.svg)](https://codecov.io/gh/FelixErnst/RNAmodR.Data)
 
 The package contains example data for RNAmodR package and other related 
 packages. It probably makes sense to have a look at 
@@ -7,23 +7,12 @@ be used.
 
 # Installation
 
-The current version of the RNAmodR.Data package is available from GitHub or
-the Bioconductor devel version.
-
-```
-remotes::install_github("FelixErnst/RNAmodR.Data")
-#
-library(RNAmodR.Data)
-```
-
-## Bioconductor
+The current version of the RNAmodR.Data package is available from Bioconductor.
 
 ```
 if (!requireNamespace("BiocManager", quietly = TRUE))
     install.packages("BiocManager")
 
-# The following initializes usage of Bioc devel
-BiocManager::install(version='devel')
 BiocManager::install("RNAmodR.Data")
 library(RNAmodR.Data)
 ```
