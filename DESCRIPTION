@@ -1,8 +1,8 @@
 Package: RNAmodR.Data
 Type: Package
 Title: Example data for the RNAmodR package
-Version: 1.1.1
-Date: 2020-01-25
+Version: 1.1.2
+Date: 2020-02-13
 Authors@R: c(person("Felix G.M.", 
                     "Ernst", 
                     email = "felix.gm.ernst@outlook.com", 
