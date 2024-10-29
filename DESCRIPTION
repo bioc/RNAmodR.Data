@@ -1,7 +1,7 @@
 Package: RNAmodR.Data
 Type: Package
 Title: Example data for the RNAmodR package
-Version: 1.19.0
+Version: 1.20.0
 Date: 2020-02-13
 Authors@R: c(person("Felix G.M.", 
                     "Ernst", 
