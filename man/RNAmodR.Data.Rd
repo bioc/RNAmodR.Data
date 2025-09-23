@@ -2,12 +2,21 @@
 % Please edit documentation in R/RNAmodR.Data.R
 \docType{package}
 \name{RNAmodR.Data}
+\alias{RNAmodR.Data-package}
 \alias{RNAmodR.Data}
 \title{RNAmodR.Data}
 \description{
 RNAmodR.Data contains example data, which is used for vignettes and example
 workflows in the \code{RNAmodR} and dependent 
 packages.
+}
+\seealso{
+Useful links:
+\itemize{
+  \item \url{https://github.com/FelixErnst/RNAmodR.Data}
+  \item Report bugs at \url{https://github.com/FelixErnst/RNAmodR.Data/issues}
+}
+
 }
 \author{
 Felix G.M. Ernst [aut], Denis L.J. Lafontaine [ctb]
